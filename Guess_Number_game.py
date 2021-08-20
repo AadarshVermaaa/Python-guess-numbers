@@ -3,6 +3,8 @@
 # FIND ME ON INSTAGRAM -- WWW.INSTAGRM.COM/@LV_ADARSH
 import random
 num = random.randint(1, 20)
+name = str(input("Welcome to my game!... Please enter your name:- "))
+print(f"Hello {name.title}... You have 10 chances to guess the correct number... Good Luck")
 # CHANGE THE VALUE OF LIVES TO INCREASE OR DECREASE THE CHANCES OF GAME
 lives = 10
 # WRITING SIMPLE LOGIC OF GUESS GAME! 
