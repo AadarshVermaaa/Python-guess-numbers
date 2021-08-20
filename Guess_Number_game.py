@@ -3,12 +3,14 @@
 # FIND ME ON INSTAGRAM -- WWW.INSTAGRM.COM/@LV_ADARSH
 import random
 num = random.randint(1, 20)
+name = str(input("Welcome to my game!... Please enter your name:- "))
+print(f"Hello {name.title}... You have 10 chances to guess the correct number... Good Luck")
 # CHANGE THE VALUE OF LIVES TO INCREASE OR DECREASE THE CHANCES OF GAME
 lives = 10
 # WRITING SIMPLE LOGIC OF GUESS GAME! 
 while lives > 0:
 
-    humaninput = int(input("enter the Value\n\n"))
+    humaninput = int(input("Enter the Value between 1 and 20\n\n>>> "))
     lives = lives-1
     if humaninput == num:
         print(
