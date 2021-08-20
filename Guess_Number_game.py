@@ -8,7 +8,7 @@ lives = 10
 # WRITING SIMPLE LOGIC OF GUESS GAME! 
 while lives > 0:
 
-    humaninput = int(input("enter the Value\n\n"))
+    humaninput = int(input("Enter the Value between 1 and 20\n\n>>> "))
     lives = lives-1
     if humaninput == num:
         print(
